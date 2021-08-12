@@ -4,6 +4,74 @@
 /*change background color and text color of zotero toolbar and menubar*/
 #zotero-tb, #zotero-toolbar, #navigator-toolbox { background: #323234 !important;
 color: #FFFFFF !important; }
+
+/* ------start of mac additions------ */
+
+/*mac additions, top toolbar*/
+#zotero-items-toolbar, #zotero-collections-toolbar, #zotero-item-toolbar { background: #323234 !important;
+color: #FFFFFF !important; }
+
+/*mac additions, duplicate items pane*/
+#zotero-duplicates-merge-pane, #zotero-duplicates-merge-item-box { background: #323234 !important;
+color: #FFFFFF !important; }
+
+/*mac additions, view pane tabs bar*/
+#zotero-view-tabbox > tabs { background: #323234 !important;
+color: #FFFFFF !important; }
+
+/*mac additions, fix white spaces in top toolbar by shifting elements*/
+#zotero-items-toolbar {
+  margin-left: -10px;
+}
+#zotero-item-toolbar {
+  margin-left: -10px;
+  padding-left: 10px;
+}
+
+/*mac additions, view pane tabs bar*/
+#zotero-tag-selector { background: #323234 !important; }
+#zotero-tags-splitter { background: #7E7E7E !important; }
+#zotero-items-splitter { background: #7E7E7E; }
+#zotero-collections-splitter { background: #7E7E7E; }
+
+/*mac additions, textbox darken*/
+textarea, textbox, input, select { 
+   background-color: #656567 !important;
+   color: #ffffff !important;
+   /* -moz-appearance: none !important; */
+} 
+/*mac additions, turn rightclick/expand menus dark*/
+menuitem, menu { 
+   /* background-color: #656567 !important; */
+   color: #ffffff !important;
+   -moz-appearance: none !important;
+} 
+menupopup {
+   background-color: #656567 !important;
+   border-radius: 4px !important;
+   -moz-appearance: none !important;
+}
+/*mac additions, preferences style manager list, didn't get highlight yet*/
+/*also style editor still borked*/
+treechildren:-moz-tree-row {
+   background-color: #323234 !important;
+} 
+/*those drop down dialogs and notifications on the bottom right*/
+dialog, window {
+   background-color: #656567 !important;
+   -moz-appearance: none !important;
+}
+
+/*mac additions, haven't figured out global tooltips*/
+#zotero-tb-sync-tooltip { 
+   background: #323234 !important;
+   color: #FFFFFF !important; 
+   -moz-appearance: none !important;
+}
+#tags-box-container ul li ul { color: black !important; }
+
+/* ------end of mac additions------ */
+
 #zotero-toolbar {border-bottom: 1px solid #1d1d1d !important;}
 /*change color of menu items to white*/
 #navigator-toolbox menu { color: white !important }
@@ -16,6 +84,9 @@ color: #FFFFFF !important; }
 #new-menu { color: black !important;
 }
 */
+
+/* #zotero-pane toolbarseparator { background: #7E7E7E !important; */
+/* color: #323234 !important; } */
 
 #zotero-splitter{ background: #323234 !important; }
 
@@ -35,14 +106,21 @@ color: #FFFFFF !important; }
 
 /*increase spacing between rows in collections and items and add a border to separate panes*/
 /*#zotero-collections-tree { border-right: 1px solid #1d1d1d !important; } */
-#zotero-collections-tree treechildren::-moz-tree-row { height: 30px !important; }
+#zotero-collections-tree treechildren::-moz-tree-row { height: 20px !important; }
 
 /*change background and color of collections when hovering*/
 #zotero-collections-tree treechildren::-moz-tree-row(hover) { background: #7E7E7E !important;
 color: #FFFFFF !important; border: 0 !important; }
 
+/*change color of selected item in Collections pane (My library or folders) */
+#zotero-collections-tree treechildren::-moz-tree-cell(selected) { background: #474749 !important; border: 0 !important;
+border-bottom: 1px solid #1d1d1d !important; }
+
+#zotero-collections-tree treechildren::-moz-tree-cell-text(selected) { color: #FFFFFF !important; }
+
 /*increase spacing between rows in collections and items*/
-#zotero-items-tree treechildren::-moz-tree-row { height: 30px !important; }
+#zotero-items-tree treechildren::-moz-tree-row { height: 20px !important; }
+
 /*#zotero-items-tree { background-color: #474749 !important; border-right: 0px solid #1d1d1d !important; }*/
 
 /*change background colour of odd rows*/
@@ -62,9 +140,7 @@ color: #FFFFFF !important; border: 0 !important; }
 #zotero-items-tree treechildren::-moz-tree-row(selected) { background: #23233a !important;
 color: #FFFFFF !important; border: 0 !important;
 border-bottom: 0px solid #1d1d1d !important; }
-#zotero-items-tree treechildren::-moz-tree-cell-text(selected) {
-	color: #FFFFFF !important; border: 0 !important; }
-
+#zotero-items-tree treechildren::-moz-tree-cell-text(selected) { color: #FFFFFF !important; border: 0 !important; }
 
 
 /*change background and color of columns field selector*/
