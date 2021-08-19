@@ -68,6 +68,8 @@ input {
    background-color: #656567 !important;
    -moz-appearance: none !important;
 } 
+#tags-box-container ul li ul { background: #7E7E7E !important; color: white !important; }
+
 /*mac additions, list selections eg. merge and export bib*/
 listbox {
    background-color: #323234 !important;
