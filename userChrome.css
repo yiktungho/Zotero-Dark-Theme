@@ -58,6 +58,10 @@ treechildren::-moz-tree-row {
 treechildren::-moz-tree-row(selected) {
    background-color: #656567 !important;
 } 
+treecol {
+   background-color: #656567 !important;
+   -moz-appearance: none !important;
+} 
 
 /*mac additions, item pane tag text input, sacrifice styling of tag search box*/
 input { 
