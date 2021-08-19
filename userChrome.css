@@ -51,10 +51,24 @@ menupopup {
    border-radius: 4px !important;
    -moz-appearance: none !important;
 }
-/*mac additions, preferences style manager list, didn't get highlight yet*/
-/*also style editor still borked*/
-treechildren:-moz-tree-row {
+/*mac additions, preferences lists*/
+treechildren::-moz-tree-row {
    background-color: #323234 !important;
+} 
+treechildren::-moz-tree-row(selected) {
+   background-color: #656567 !important;
+} 
+
+/*mac additions, item pane tag text input, sacrifice styling of tag search box*/
+input { 
+   background-color: #656567 !important;
+   -moz-appearance: none !important;
+} 
+/*mac additions, list selections eg. merge and export bib*/
+listbox {
+   background-color: #323234 !important;
+   color: #ffffff !important;
+   -moz-appearance: none !important;
 } 
 /*those drop down dialogs and notifications on the bottom right*/
 dialog, window {
@@ -68,7 +82,6 @@ dialog, window {
    color: #FFFFFF !important; 
    -moz-appearance: none !important;
 }
-#tags-box-container ul li ul { color: black !important; }
 
 /* ------end of mac additions------ */
 
