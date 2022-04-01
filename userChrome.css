@@ -17,10 +17,9 @@ border-bottom: 1px solid #1d1d1d !important;}
 color: #FFFFFF !important; border: 0 !important; }
 }
 
-
 #zotero-items-tree .virtualized-table  { background: #323234 !important;
 color: #FFFFFF !important; border: 0 !important; }
-#zotero-items-tree .virtualized-table .row  { background: #4b4b4e !important;
+#zotero-items-tree .virtualized-table .row  { background: #3a3a3c !important;
 color: #FFFFFF !important; border: 0 !important; }
 #zotero-items-tree .virtualized-table .row.selected  { background: #23233a !important;
 color: #FFFFFF !important; border: 0 !important; }
