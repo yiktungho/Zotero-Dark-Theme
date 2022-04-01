@@ -5,6 +5,89 @@
 #zotero-tb, #zotero-toolbar, #navigator-toolbox { background: #323234 !important;
 color: #FFFFFF !important; }
 
+/* ----- Zotero 6 Patch-------- */
+
+/*for Zotero 6*/
+.virtualized-table {background: #323234 !important; color: #FFFFFF !important;}
+.virtualized-table .row.selected {background: #474749 !important; border: 0 !important;
+border-bottom: 1px solid #1d1d1d !important;}
+.virtualized-table:not(:focus) .row.selected {background: #474749 !important; border: 0 !important;
+border-bottom: 1px solid #1d1d1d !important;}
+.row:hover { background: #7E7E7E !important;
+color: #FFFFFF !important; border: 0 !important; }
+}
+
+
+#zotero-items-tree .virtualized-table  { background: #323234 !important;
+color: #FFFFFF !important; border: 0 !important; }
+#zotero-items-tree .virtualized-table .row  { background: #4b4b4e !important;
+color: #FFFFFF !important; border: 0 !important; }
+#zotero-items-tree .virtualized-table .row.selected  { background: #23233a !important;
+color: #FFFFFF !important; border: 0 !important; }
+#zotero-items-tree .virtualized-table .row:hover  { background: #7e7e7e !important;
+color: #FFFFFF !important; border: 0 !important; }
+
+/* for Zotero 6*/
+.tag-selector-item:hover { background: #BBCEF1 !important;
+    color: black !important; }
+
+.tag-selector-item {
+  background: #474749 !important;
+color:white ; }
+
+/*fix columns field selector for Zotero 6*/
+#zotero-items-tree .virtualized-table-header { -moz-appearance: none !important;
+  background: #474749 !important;
+color: #FFFFFF !important;
+border-bottom: 1px solid #1d1d1d !important;
+border-right: 1px solid #1d1d1d !important; }
+
+#zotero-items-tree .virtualized-table-header .cell:hover { background: #7E7E7E !important;
+color: #FFFFFF !important;}
+
+
+.treecol-image { -moz-appearance: none !important;
+  background: #474749 !important;
+color: #FFFFFF !important;
+border-bottom: 1px solid #1d1d1d !important; }
+
+
+/*background of item-pane-content (Zotero 6)*/
+#zotero-item-pane-content { background: #323234 !important; }
+
+
+.tabs {-moz-appearance: none !important;
+  background: #323234 !important;
+  color: #FFFFFF !important;
+border: 0px solid red !important;}
+
+.tab {-moz-appearance: none !important;
+color: #7E7E7E !important;
+background: #323234 !important;
+}
+.tab:hover { background: #7E7E7E !important;
+color: #FFFFFF !important; border: 0 !important; }
+}
+.tab:not(:focus){ -moz-appearance: none !important;
+color: #7E7E7E !important;
+background: #323234 !important;
+border-top: 0px solid #0a84ff !important;
+border-left: 0px solid rgba(127,127,127,0.2) !important;
+border-right: 1px solid #1d1d1d !important;
+border-radius: 0px !important;
+border-bottom-left-radius: 0px !important;
+border-bottom-right-radius: 0px !important; }
+.tab.selected:not(.highlighted){ color: #FFFFFF !important;
+  background: #323234 !important;
+  border-top: 3px solid #0a84ff !important;
+  border-left: 0px solid rgba(127,127,127,0.2) !important;
+  border-right: 1px solid #1d1d1d !important;
+  border-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;  }
+
+
+
 /* ------start of mac additions------ */
 
 /*mac additions, top toolbar*/

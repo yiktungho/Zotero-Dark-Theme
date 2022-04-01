@@ -2,10 +2,12 @@
 
 ## Fork notes
 
+April 2022: Updated-ish for Zotero 6
+
 Optimised for Mac dark mode. Tested only on Mojave. Screenshot updated (except collections highlight)
 
 <p align="center">
-<img src="https://github.com/yiktungho/Zotero-Dark-Theme/blob/mac-patch/mac%20edit.png"  width="600" height="333" />
+<img src="https://github.com/yiktungho/Zotero-Dark-Theme/blob/mac-patch/mac%20edit.jpg"  width="600" height="333" />
 </p>
 
 [Do this to force OS dark mode to get dark titlebar and white text color](https://forums.macrumors.com/threads/forcing-third-party-applications-to-use-dark-mode.2134382/)
