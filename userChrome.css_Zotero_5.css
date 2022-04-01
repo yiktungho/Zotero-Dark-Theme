@@ -1,0 +1,278 @@
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::: Zotero :::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+* {border: 0 !important; }
+/*change background color and text color of zotero toolbar and menubar*/
+#zotero-tb, #zotero-toolbar, #navigator-toolbox { background: #323234 !important;
+color: #FFFFFF !important; }
+
+/* ------start of mac additions------ */
+
+/*mac additions, top toolbar*/
+#zotero-items-toolbar, #zotero-collections-toolbar, #zotero-item-toolbar { background: #323234 !important;
+color: #FFFFFF !important; }
+
+/*mac additions, duplicate items pane*/
+#zotero-duplicates-merge-pane, #zotero-duplicates-merge-item-box { background: #323234 !important;
+color: #FFFFFF !important; }
+
+/*mac additions, view pane tabs bar*/
+#zotero-view-tabbox > tabs { background: #323234 !important;
+color: #FFFFFF !important; }
+
+/*mac additions, fix white spaces in top toolbar by shifting elements*/
+#zotero-items-toolbar {
+  margin-left: -10px;
+}
+#zotero-item-toolbar {
+  margin-left: -10px;
+  padding-left: 10px;
+}
+
+/*mac additions, view pane tabs bar*/
+#zotero-tag-selector { background: #323234 !important; }
+#zotero-tags-splitter { background: #7E7E7E !important; }
+#zotero-items-splitter { background: #7E7E7E; }
+#zotero-collections-splitter { background: #7E7E7E; }
+
+/*mac additions, textbox darken*/
+textarea, textbox, input, select { 
+   background-color: #656567 !important;
+   color: #ffffff !important;
+   /* -moz-appearance: none !important; */
+} 
+/*mac additions, turn rightclick/expand menus dark*/
+menuitem, menu { 
+   /* background-color: #656567 !important; */
+   color: #ffffff !important;
+   -moz-appearance: none !important;
+} 
+menupopup {
+   background-color: #656567 !important;
+   border-radius: 4px !important;
+   -moz-appearance: none !important;
+}
+/*mac additions, preferences lists*/
+treechildren::-moz-tree-row {
+   background-color: #323234 !important;
+} 
+treechildren::-moz-tree-row(selected) {
+   background-color: #656567 !important;
+} 
+treecol {
+   background-color: #656567 !important;
+   -moz-appearance: none !important;
+} 
+
+/*mac additions, item pane tag text input, sacrifice styling of tag search box*/
+input { 
+   background-color: #656567 !important;
+   -moz-appearance: none !important;
+} 
+#tags-box-container ul li ul { background: #7E7E7E !important; color: white !important; }
+
+/*mac additions, list selections eg. merge and export bib*/
+listbox {
+   background-color: #323234 !important;
+   color: #ffffff !important;
+   -moz-appearance: none !important;
+} 
+/*those drop down dialogs and notifications on the bottom right*/
+dialog, window {
+   background-color: #656567 !important;
+   -moz-appearance: none !important;
+}
+
+/*mac additions, haven't figured out global tooltips*/
+#zotero-tb-sync-tooltip { 
+   background: #323234 !important;
+   color: #FFFFFF !important; 
+   -moz-appearance: none !important;
+}
+
+/* ------end of mac additions------ */
+
+#zotero-toolbar {border-bottom: 1px solid #1d1d1d !important;}
+/*change color of menu items to white*/
+#navigator-toolbox menu { color: white !important }
+
+/*change color of menu items in drop down menus back to black*/
+#manage-attachments-menu label, #developer-menu label, #layout-menu label, #note-font-size-menu label, #font-size-menu label, #debug-output-menu label, #new-item label { color: black !important; }
+/*NOT WORKING
+
+#navigator-toolbox menu:first-child { color: black !important }
+#new-menu { color: black !important;
+}
+*/
+
+/* #zotero-pane toolbarseparator { background: #7E7E7E !important; */
+/* color: #323234 !important; } */
+
+#zotero-splitter{ background: #323234 !important; }
+
+#zotero-pane{ background: #7E7E7E !important;
+color: #323234 !important; }
+grippy{ opacity: .5 !important; }
+
+#heading_wrapper {
+  color: #fff;
+  background-color: #7E7E7E !important;
+}
+
+/*change background and color of collections and items panes*/
+treechildren{ background: #323234 !important;
+color: #FFFFFF !important; }
+
+
+/*increase spacing between rows in collections and items and add a border to separate panes*/
+/*#zotero-collections-tree { border-right: 1px solid #1d1d1d !important; } */
+#zotero-collections-tree treechildren::-moz-tree-row { height: 20px !important; }
+
+/*change background and color of collections when hovering*/
+#zotero-collections-tree treechildren::-moz-tree-row(hover) { background: #7E7E7E !important;
+color: #FFFFFF !important; border: 0 !important; }
+
+/*change color of selected item in Collections pane (My library or folders) */
+#zotero-collections-tree treechildren::-moz-tree-cell(selected) { background: #474749 !important; border: 0 !important;
+border-bottom: 1px solid #1d1d1d !important; }
+
+#zotero-collections-tree treechildren::-moz-tree-cell-text(selected) { color: #FFFFFF !important; }
+
+/*increase spacing between rows in collections and items*/
+#zotero-items-tree treechildren::-moz-tree-row { height: 20px !important; }
+
+/*#zotero-items-tree { background-color: #474749 !important; border-right: 0px solid #1d1d1d !important; }*/
+
+/*change background colour of odd rows*/
+#zotero-items-tree treechildren::-moz-tree-row(odd) { background: #4b4b4e !important;
+color: #FFFFFF !important; border: 0 !important; }
+
+/*change background colour of even rows*/
+#zotero-items-tree treechildren::-moz-tree-row(even) { background: #3a3a3c !important;
+color: #FFFFFF !important; border: 0 !important; }
+
+/*change background and color of items when hovering*/
+#zotero-items-tree treechildren::-moz-tree-row(hover) { background: #7E7E7E !important;
+color: #FFFFFF !important; border: 0 !important; }
+
+
+/*change background and color of items when selecting*/
+#zotero-items-tree treechildren::-moz-tree-row(selected) { background: #23233a !important;
+color: #FFFFFF !important; border: 0 !important;
+border-bottom: 0px solid #1d1d1d !important; }
+#zotero-items-tree treechildren::-moz-tree-cell-text(selected) { color: #FFFFFF !important; border: 0 !important; }
+
+
+/*change background and color of columns field selector*/
+#zotero-items-tree treecol { -moz-appearance: none !important;
+  background: #474749 !important;
+color: #f7f7f7 !important;
+border-bottom: 1px solid #1d1d1d !important;
+border-right: 1px solid #1d1d1d !important; }
+
+.treecol-image { -moz-appearance: none !important;
+  background: #474749 !important;
+color: #f7f7f7 !important;
+border-bottom: 1px solid #1d1d1d !important; }
+
+/*tabs in Preferences dialog - well more like all the tabs except the ones I'll specify later*/
+tabpanel { color: black !important;
+background: #7E7E7E !important; }
+
+tab[selected="true"]{ color: black !important;
+background: #7f0000 !important; }
+
+tab{ -moz-appearance: none !important;
+color: #eee !important;
+background: #474749 !important;
+border-top: 0px solid black !important;
+border-left: 0px solid black !important;
+border-right: 1px solid #1d1d1d !important;
+border-radius: 0px !important;
+border-bottom-left-radius: 0px !important;
+border-bottom-right-radius: 0px !important; }
+
+tab:hover{ color: black !important;
+background: #E0E8F6 !important;
+box-shadow: inset 0px 0px 0px !important;
+border-radius: 0px 0px 0 0 !important; }
+
+/*change items in item pane besides tabs*/
+#zotero-duplicates-merge-pane > groupbox > .groupbox-body { background: #7E7E7E !important;
+  color: #FFFFFF !important;
+  border: 0 !important; }
+
+/*#zotero-item-pane-content > groupbox { border: 0 !important; background: #323234 !important;
+color: #FFFFFF !important; }*/
+
+#zotero-item-pane-content > groupbox > .groupbox-body { border: 0 !important; background: #323234 !important;
+color: #FFFFFF !important; }
+
+/*change color of retraction details background*/
+#retraction-details { background: #7f0000 !important; }
+
+/*tabs in Item pane*/
+#zotero-item-pane-content tabpanel { background: #3f3f41 !important;
+color: #FFFFFF !important; }
+
+#zotero-item-pane-content tab[selected="true"]{ background: #474749 !important;
+border-top: 3px solid #0a84ff !important;}
+
+#zotero-item-pane-content tab{ -moz-appearance: none !important;
+color: #eee !important;
+background: #323234 !important;
+border-top: 0px solid #0a84ff !important;
+border-left: 0px solid rgba(127,127,127,0.2) !important;
+border-right: 1px solid #1d1d1d !important;
+border-radius: 0px !important;
+border-bottom-left-radius: 0px !important;
+border-bottom-right-radius: 0px !important; }
+
+#zotero-item-pane-content tab:hover{ color: #FFFFFF !important;
+background: #323234 !important;
+box-shadow: inset 0px 0px 0px !important;
+border-radius: 0px 0px 0 0 !important; }
+
+/*define color of item type field*/
+#item-type-menu
+{
+	-moz-appearance: none;
+	color: white !important;
+	height: 1.5em !important;
+	min-height: 1.5em !important;
+	padding: 0 0 0 2px !important;
+	margin: 1px 5px 0 1px !important;
+	max-height: 1.5em !important;
+	border: 1px solid transparent;
+	background-color: transparent;
+}
+/*define color of date-field-status*/
+#zotero-date-field-status
+{
+	color: #ffffff !important;
+	padding: 0 10px 0 1px !important;
+}
+
+/*preferences dialog*/
+#zotero-prefpane-general, #zotero-prefpane-sync, #zotero-prefpane-export, #zotero-prefpane-advanced-keys-tab, #wordProcessors, #zotero-quickCopy-format, #sync-reset-form { color: black !important;
+background: #7E7E7E !important; }
+#zotero-prefpane-general title { background: #474749 !important;
+color: #FFFFFF !important; }
+
+prefwindow { color: black !important;
+background: #7E7E7E !important; }
+
+prefwindow .chromeclass-toolbar { color: #FFFFFF !important;
+background: #323234 !important; }
+
+/*about dialog*/
+#aboutcontent
+{	background: #474749 !important;
+  color: white !important;
+	padding: 10px; }
+
+#version
+{	color: white !important; }
+
+/*advanced search dialog*/
+#zotero-advanced-search-dialog #zotero-search-box-controls {	color: black !important;
+background: #7E7E7E !important; }
