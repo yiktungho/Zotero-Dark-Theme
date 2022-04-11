@@ -9,15 +9,7 @@ color: #FFFFFF !important; }
 
 /*for Zotero 6*/
 .virtualized-table {background: #323234 !important; color: #FFFFFF !important;}
-.virtualized-table .row.selected {background: #474749 !important; border: 0 !important;
-border-bottom: 1px solid #1d1d1d !important;}
-.virtualized-table:not(:focus) .row.selected {background: #474749 !important; border: 0 !important;
-border-bottom: 1px solid #1d1d1d !important;}
-.row:hover { background: #7E7E7E !important;
-color: #FFFFFF !important; border: 0 !important; }
-}
 
-/*for Zotero 6 tables in general*/
 .virtualized-table .row{background: #323234 !important; color: #FFFFFF !important;}
 .virtualized-table-header { -moz-appearance: none !important;
   background: #474749 !important;
@@ -26,6 +18,14 @@ border-bottom: 1px solid #1d1d1d !important;
 border-right: 1px solid #1d1d1d !important; }
 .virtualized-table-header .cell:hover { background: #7E7E7E !important;
 color: #FFFFFF !important;}
+
+.virtualized-table .row.selected {background: #474749 !important; border: 0 !important;
+border-bottom: 1px solid #1d1d1d !important;}
+.virtualized-table:not(:focus) .row.selected {background: #474749 !important; border: 0 !important;
+border-bottom: 1px solid #1d1d1d !important;}
+.row:hover { background: #7E7E7E !important;
+color: #FFFFFF !important; border: 0 !important; }
+}
 
 /*for Zotero 6 items tree*/
 #zotero-items-tree .virtualized-table  { background: #323234 !important;
